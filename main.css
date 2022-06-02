@@ -12,6 +12,9 @@ body{
 	background-color: #009999;
 }
 
-.box{
-	background-color
+.chessboard{
+	display: inline-grid
+        grid-template-rows:
+        grid-template-columns:
 }
+// display starts a grid, rows and columns give the grids rows and columns
