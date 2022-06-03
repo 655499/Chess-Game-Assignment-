@@ -10,11 +10,13 @@ body{
 
 .chessboard{
 	background-color: white;
-	border: 60px;
-	width: 150px;
+	height: 750px;
+	width: 750px;
 	display: grid
-    grid-template-rows: 
-    grid-template-columns: repeat(auto-fill, 40px);
+    grid-template-rows: repeat(8, 40px);
+    grid-template-columns: repeat(9, 40px);
 	grid-gap: 0;
+	border-style: solid;
+	border-width: 10px;
 }
-// display starts a grid, rows and columns give the grids rows and columns
+// display starts a grid, rows and columns give the grids rows and columns and repeats its.
