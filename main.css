@@ -1,20 +1,20 @@
-{
-	padding: 0;
-	margin: 0;
-}
-
 h1{
 	color: white;
 	text-align: center;
 }
 
 body{
+	margin: 40px;
 	background-color: #009999;
 }
 
 .chessboard{
-	display: inline-grid
-        grid-template-rows:
-        grid-template-columns:
+	background-color: white;
+	border: 60px;
+	width: 150px;
+	display: grid
+    grid-template-rows: 
+    grid-template-columns: repeat(auto-fill, 40px);
+	grid-gap: 0;
 }
 // display starts a grid, rows and columns give the grids rows and columns
